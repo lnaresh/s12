@@ -1,13 +1,13 @@
+#include"string_headers.h"
 #include<stdio.h>
-
-unsigned int mstrlen(char* a)
-{
-char* temp_a=a;
-unsigned int len=0;
-while(temp_a[len])
-	len++;
-return len;
-}
+unsigned int mstrlen(char* a);
+//{
+//char* temp_a=a;
+//unsigned int len=0;
+//while(temp_a[len])
+//	len++;
+//return len;
+//}
 int main()
 {
 
